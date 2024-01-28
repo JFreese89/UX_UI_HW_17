@@ -17,20 +17,35 @@
   padding: 1%;
 }
 
-#LI  {
+#button {
+  background-color: #003844;
+  background-position: left;
+  background-repeat: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+.LI  {
   background-image: url("/images/Linked_In.png");
   background-repeat: none;
+  height: 5%;
+  width: 5%;
 }
-#em  {
+.em  {
   background-image: url("/images/email.png");
   background-repeat: none;
 }
-#drb  {
+.drb  {
   background-image: url("/images/dribble.png");
   background-repeat: none;
 }
 
-ul [type=li] {
+.li {
   width: 50%;
   margin-left: auto;
 }
@@ -39,6 +54,7 @@ ul [type=li] {
 .heroImg {
   height: 450px;
   padding: 25px;
+  color: #251605;
   background-color: #83b3b3;
   background-image: url("/images/Hero_image_my_pic.png"), url(/images/Hero_image_cats_pic.png);
   background-position: left bottom, right bottom;
@@ -46,6 +62,17 @@ ul [type=li] {
   background-size: 431px 440px,  298px 244px;
 }
 
+#herobutton {
+  background-color: #003844;
+  background-position: center;
+  background-repeat: none;
+  border-radius: 10px;
+  height: 60px;
+  width: 300px;
+  padding: 20px;
+  color: white;
+  font-size: larger;
+}
 .content {
   width: 500px;
   margin: 0 auto;
@@ -69,18 +96,24 @@ input[type=text], select, textarea {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgba(0, 56, 68, 0.8);
   }
   
   /* Add a background color and some padding around the form */
   .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    border-radius: 4px;
+    background-color: #83b3b3;
     padding: 20px;
+  }
+
+  .contact {
+    text-align: auto;
+    align-content:flex-end;
+    justify-content: flex-end;
   }
