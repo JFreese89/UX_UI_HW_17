@@ -17,6 +17,7 @@
   padding: 1%;
 }
 
+
 #button {
   background-color: #003844;
   background-position: left;
@@ -33,23 +34,48 @@
 .LI  {
   background-image: url("/images/Linked_In.png");
   background-repeat: none;
-  height: 5%;
-  width: 5%;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
 }
 .em  {
   background-image: url("/images/email.png");
   background-repeat: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
 }
 .drb  {
   background-image: url("/images/dribble.png");
   background-repeat: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
 }
 
 .li {
   width: 50%;
   margin-left: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
 
+.topbutton {
+  grid-area: hover;
+  background-color: #003844;
+  color: white;
+  border-radius: 10px;
+  width: 168px;
+  height: 48px;
+  text-align: center;
+  justify-content: flex-end;
+  transition: all 2s ease;
+}
+
+.topbutton:hover {
+  background-color: rgba(0, 56, 68, 0.8);
+}
 
 .heroImg {
   height: 450px;
@@ -72,7 +98,15 @@
   padding: 20px;
   color: white;
   font-size: larger;
+  text-align: center;
+  justify-content: flex-end;
+  transition: all 2s ease;
 }
+
+#herobutton:hover {
+  font-size: 175%;
+}
+
 .content {
   width: 500px;
   margin: 0 auto;
@@ -112,8 +146,4 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
-  .contact {
-    text-align: auto;
-    align-content:flex-end;
-    justify-content: flex-end;
-  }
+  
